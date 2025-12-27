@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 
 BaseUrl="https://practicetestautomation.com/practice-test-login/"
-email="student"
+email="student1"
 password="Password123"
 @pytest.fixture(scope="class",autouse=True)
 def launch_browser(request):
